@@ -20,6 +20,7 @@ The game is a tribute to Metal Slug.
 * Shoot with J
 * Jump with K
 * Throw a rock with L
+* Pause game with P
 
 The keys can be changed from the options menu.
 
