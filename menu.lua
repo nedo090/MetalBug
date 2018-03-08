@@ -104,7 +104,7 @@ function menu.resize(w,h)
   positionCreditX    = w/2 - widthButton["Credit"]/2
   positionBackX    = w/2 - widthButton["Back"]/2
   positionQuitX    = w/2 - widthButton["Quit"]/2
-
+  positionControlsX = w/2 - widthButton["Controls"]/2
 
   Background.quad1X = w/2 - 300
   Background.quad2X = w/2 - 300
