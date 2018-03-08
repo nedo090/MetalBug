@@ -21,11 +21,11 @@ local function WinPlayer()
     camera:removeAllLayer()
     StateGame.load(PlayerSprite)
 
-    PlayerSprite.player.up = false
+    PlayerSprite.player.up  = false
     PlayerSprite.player.run = false
     PlayerSprite.player.crouch = false
-    PlayerSprite.player.shoot = false
-    PlayerSprite.player.throw = false
+    PlayerSprite.player.shoot  = false
+    PlayerSprite.player.throw  = false
     PlayerSprite.player.y = 460
     PlayerSprite.player.reverse = 1
 
@@ -46,10 +46,12 @@ function endgame()
     camera:ToMenu()
     StateGame = menu
 
-    PlayerSprite.player.up = false
-    PlayerSprite.player.crouch = false
-    PlayerSprite.player.y = 460
+    PlayerSprite.player.up  = false
     PlayerSprite.player.run = false
+    PlayerSprite.player.crouch = false
+    PlayerSprite.player.shoot  = false
+    PlayerSprite.player.throw  = false
+    PlayerSprite.player.y = 460
     PlayerSprite.player.reverse = 1
     PlayerSprite.endanim = 0
 
